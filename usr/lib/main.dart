@@ -302,7 +302,7 @@ class VisaoGeralRacksView extends StatelessWidget {
             icon: const Icon(Icons.add),
             label: const Text('Adicionar Fila de Rack'),
             style: ElevatedButton.styleFrom(
-              minimumSize: const Size.infinity,
+              minimumSize: const Size(double.infinity, 48),
               padding: const EdgeInsets.all(16),
             ),
           ),
